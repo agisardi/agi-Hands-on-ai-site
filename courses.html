@@ -4,31 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courses - Agi.Hands-on-AI-Exploration</title>
+    <title>Courses - AI for Life-Long Learners</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <h1>AI Courses</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="courses.html">Courses</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class="container">
+            <h1 class="logo">AI for Life-Long Learners</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Course List</h2>
-            <ul>
-                <li><strong>Intro to AI:</strong> Understand the basics and history of AI.</li>
-                <li><strong>Machine Learning 101:</strong> Hands-on with real datasets.</li>
-                <li><strong>Build Your First AI:</strong> Create a simple neural network from scratch.</li>
-            </ul>
-        </section>
-    </main>
+
+    <section class="page-title">
+        <div class="container">
+            <h2>Our Courses</h2>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container courses-container">
+            <div class="course-card">
+                <img src="https://via.placeholder.com/400x250" alt="Course 1">
+                <h3>Introduction to AI</h3>
+                <p>A beginner-friendly introduction to the fundamental concepts of Artificial Intelligence. No prior experience required!</p>
+                <a href="#" class="btn-secondary">Learn More</a>
+            </div>
+            <div class="course-card">
+                <img src="https://via.placeholder.com/400x250" alt="Course 2">
+                <h3>Machine Learning Basics</h3>
+                <p>Discover the core principles of machine learning and learn to build your first predictive models.</p>
+                <a href="#" class="btn-secondary">Learn More</a>
+            </div>
+            <div class="course-card">
+                <img src="https://via.placeholder.com/400x250" alt="Course 3">
+                <h3>Deep Learning Fundamentals</h3>
+                <p>Dive into the world of neural networks and explore the technology behind image recognition and natural language processing.</p>
+                <a href="#" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Agi.Hands-on-AI-Exploration</p>
+        <div class="container">
+            <p>&copy; 2024 AI for Life-Long Learners. All Rights Reserved.</p>
+        </div>
     </footer>
+
 </body>
 </html>
