@@ -4,37 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Agi.Hands-on-AI-Exploration</title>
+    <title>Contact Us - AI for Life-Long Learners</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="courses.html">Courses</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class="container">
+            <h1 class="logo">AI for Life-Long Learners</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <form action="https://formspree.io/f/mnqevkql" method="POST">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
 
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="_replyto" required>
+    <section class="page-title">
+        <div class="container">
+            <h2>Get In Touch</h2>
+        </div>
+    </section>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+    <section class="main-content">
+        <div class="container contact-container">
+            <div class="contact-form">
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
 
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Have questions? We'd love to hear from you. Reach out to us through any of the channels below.</p>
+                <ul>
+                    <li><strong>Email:</strong> contact@aiforlifelonglearners.com</li>
+                    <li><strong>Phone:</strong> (123) 456-7890</li>
+                    <li><strong>Address:</strong> 123 AI Lane, Knowledge City, USA</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Agi.Hands-on-AI-Exploration</p>
+        <div class="container">
+            <p>&copy; 2024 AI for Life-Long Learners. All Rights Reserved.</p>
+        </div>
     </footer>
+
 </body>
 </html>
